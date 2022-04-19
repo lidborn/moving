@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f0f4f4;
+		background: #fff;
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
@@ -141,6 +141,7 @@ input, select, textarea {
 	strong, b {
 		font-weight: 400;
 		color: #483949;
+		color: #fff;
 	}
 
 	em, i {
@@ -2055,7 +2056,7 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: #2b252c;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2169,6 +2170,7 @@ input, select, textarea {
 	}
 
 		.wrapper.style2 {
+			background:#2b252c;
 			padding-top: 0;
 		}
 
@@ -2418,14 +2420,16 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #fff;
+		background: #2b252c;
 		text-align: center;
 		padding: 4.5em 0 4.5em 0;
 		margin-bottom: 0;
+		color: rgb(255, 255, 255);
 	}
 
 		#banner header > p {
 			margin-bottom: 0;
+			
 		}
 
 /* Content */
