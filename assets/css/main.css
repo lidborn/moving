@@ -1611,6 +1611,7 @@ footer {
 /* Image */
 
 .image {
+    object-fit: fill;
     position: relative;
     display: inline-block;
     border: 0;
@@ -1618,18 +1619,23 @@ footer {
 }
 
 .image img {
+    object-fit: fill;
     display: block;
     width: 100%;
 }
 
 .image.fit {
+    object-fit: fill;
     display: block;
     width: 100%;
 }
 
 .image.featured {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
     display: block;
-    width: 100%;
+    object-fit: fill;
     margin: 0 0 4em 0;
 }
 
